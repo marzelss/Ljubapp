@@ -1,0 +1,79 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #151259;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+p {
+  opacity: 0.9;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+/* TILE STYLE (radio answer tiles) */
+.answer-tile {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 12px;
+  border-radius: 12px;
+  margin: 10px 0;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.answer-tile.checked {
+  background-color: white;
+  color: #151259;
+}
+
+.answer-tile input[type="radio"] {
+  accent-color: #151259;
+  transform: scale(1.3);
+  display: inline-block;
+}
+
+/* BUTTONS */
+button {
+  margin-top: 30px;
+  background-color: white;
+  color: #151259;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.1s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+/* CONTENT WRAPPER */
+#exchange-container {
+  max-width: 600px;
+  margin: auto;
+}
+
+.end-title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}

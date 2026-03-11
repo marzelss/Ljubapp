@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game Results</title>
+  <link rel="stylesheet" href="result.css">
+</head>
+<body>
+  <div class="result-container">
+    <h1 id="resultTitle"></h1>
+    <p id="resultText"></p>
+
+    <div id="pointsContainer">
+      <h2 id="pointsDisplay"></h2>
+    </div>
+
+    <div id="claimSection" class="hidden">
+      <h3>How would you like to claim your points?</h3>
+      <div id="prizeGrid"></div>
+      <button id="confirmPrizeBtn" class="hidden">Confirm</button>
+    </div>
+
+    <button id="profileBtn" class="hidden">Go to profile summary</button>
+  </div>
+
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+  <script src="result.js"></script>
+</body>
+</html>

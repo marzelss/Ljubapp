@@ -1,0 +1,52 @@
+[
+  {
+    "id": "amatriciana",
+    "name": "Pasta all'amatriciana",
+    "image": "../assets/plates/amatriciana.png"
+  },
+  {
+    "id": "toasties",
+    "name": "Toasties",
+    "image": "../assets/plates/toasties.png"
+  },
+  {
+    "id": "bruschetta",
+    "name": "Bruschetta",
+    "image": "../assets/plates/bruschetta.png"
+  },
+  {
+    "id": "fonzies",
+    "name": "Fonzies",
+    "image": "../assets/plates/fonzies.png"
+  },
+  {
+    "id": "tiramisu",
+    "name": "Tiramisù",
+    "image": "../assets/plates/tiramisu.png"
+  },
+  {
+    "id": "risotto",
+    "name": "Risotto allo zafferano",
+    "image": "../assets/plates/risotto.png"
+  },
+  {
+    "id": "palacinke",
+    "name": "Palacinke",
+    "image": "../assets/plates/palacinke.png"
+  },
+  {
+    "id": "ragout",
+    "name": "Pasta al ragù",
+    "image": "../assets/plates/ragout.png"
+  },
+  {
+    "id": "cotechino",
+    "name": "Cotechino and potatoes",
+    "image": "../assets/plates/cotechino.png"
+  },
+  {
+    "id": "lasagne",
+    "name": "Lasagne",
+    "image": "../assets/plates/lasagne.png"
+  }
+]

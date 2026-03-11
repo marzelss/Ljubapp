@@ -1,0 +1,130 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #151259;
+  color: white;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+.profile-container {
+  max-width: 600px;
+  padding: 2rem 1rem;
+  width: 100%;
+}
+
+#profileImage {
+  width: 180px;
+  height: auto;
+  border-radius: 0;
+  margin-bottom: 1.5rem;
+}
+
+#profileName {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 0.8rem;
+}
+
+#totalPoints {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.history-section {
+  text-align: left;
+  margin-top: 1rem;
+}
+
+.history-section h2 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.claim-btn {
+  background-color: white;
+  color: #151259;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  padding: 0.4rem 0.8rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.claim-btn:hover {
+  opacity: 0.9;
+  transform: scale(1.03);
+}
+
+.claim-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.expired-label {
+  color: #d6496a;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.prize-tile {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+
+.prize-tile .tile-right {
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+.prize-tile.claimed {
+  animation: claimFlash 0.8s ease;
+  border: 2px solid white;
+}
+
+@keyframes claimFlash {
+  0% { border-color: white; opacity: 0.5; }
+  100% { border-color: rgba(255, 255, 255, 0.2); opacity: 1; }
+}
+
+.prize-tile.expired {
+  animation: fadeOut 0.8s ease forwards;
+}
+
+.prize-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* 👈 pushes "+" to the far right */
+}
+
+.add-prize-btn {
+  color: white;
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-decoration: none;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 0 10px;
+  border-radius: 8px;
+  transition: 0.2s;
+}
+
+.add-prize-btn:hover {
+  background: rgba(255, 255, 255, 0);
+  transform: scale(1.1);
+}
+

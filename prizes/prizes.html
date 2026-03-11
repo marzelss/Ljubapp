@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Collect a new prize</title>
+  <link rel="stylesheet" href="prizes.css">
+</head>
+<body>
+  <div id="successMessage" class="hidden success-box">
+    🎉 Prize collected successfully!
+  </div>
+  
+    <div id="pointsContainer">
+      <h2 id="pointsDisplay"></h2>
+    </div>
+
+    <div id="claimSection" class="hidden">
+      <h3>How would you like to claim your points?</h3>
+      <div id="prizeGrid"></div>
+      <button id="confirmPrizeBtn" class="hidden">Confirm</button>
+    </div>
+  </div>
+
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+  <script src="prizes.js"></script>
+</body>
+</html>

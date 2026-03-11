@@ -1,0 +1,229 @@
+{
+  "questions": [
+    {
+      "question": "How do you say 'I love you' in %@?",
+      "answers": {
+        "Martina": {
+          "language": "Croatian",
+          "correct": "Volim te",
+          "options": ["Volim te", "Te volim", "Volim te puno", "Volim ti"]
+        },
+        "Renato": {
+          "language": "Italian",
+          "correct": "Ti amo",
+          "options": ["Ti amo", "Te amo", "Te amo tanto", "Ti amo tanto"]
+        }
+      }
+    },
+    {
+      "question": "How do you say 'I miss you' in %@?",
+      "answers": {
+        "Martina": {
+          "language": "Croatian",
+          "correct": "Fališ mi",
+          "options": ["Fališ mi", "Nedostaješ mi", "Fales mi", "Fališ me puno"]
+        },
+        "Renato": {
+          "language": "Italian",
+          "correct": "Mi manchi",
+          "options": ["Mi manchi", "Me manchi", "Me manche", "Mi manche"]
+        }
+      }
+    },
+    {
+      "question": "How do you say 'love' in %@?",
+      "answers": {
+        "Martina": {
+          "language": "Croatian",
+          "correct": "Ljubav",
+          "options": ["Ljubav", "Ljubavi", "Lajubavi moja", "Ljubapp"]
+        },
+        "Renato": {
+          "language": "Italian",
+          "correct": "Amore",
+          "options": ["Amore", "Mio amore", "Mi amore", "Amore mio"]
+        }
+      }
+    },
+    {
+      "question": "How do you say 'heart' in %@?",
+      "answers": {
+        "Martina": {
+          "language": "Croatian",
+          "correct": "Srce",
+          "options": ["Srce", "Ljubav", "Jutro", "Sve"]
+        },
+        "Renato": {
+          "language": "Italian",
+          "correct": "Cuore",
+          "options": ["Cuore", "Amore", "Tesoro", "Amo"]
+        }
+      }
+    },
+    {
+      "question": "How do you say 'thank you' in %@?",
+      "answers": {
+        "Martina": {
+          "language": "Croatian",
+          "correct": "Hvala",
+          "options": ["Hvala", "Molim", "Volim", "Ljubav"]
+        },
+        "Renato": {
+          "language": "Italian",
+          "correct": "Grazie",
+          "options": ["Grazie", "Prego", "Gracias", "Cuore"]
+        }
+      }
+    },
+    {
+      "question": "How do you say 'you're welcome' in %@?",
+      "answers": {
+        "Martina": {
+          "language": "Croatian",
+          "correct": "Molim",
+          "options": ["Molim", "Hvala", "Srce", "Dobro jutro"]
+        },
+        "Renato": {
+          "language": "Italian",
+          "correct": "Prego",
+          "options": ["Prego", "Grazie", "Cuore", "Non c'è di che"]
+        }
+      }
+    },
+    {
+      "question": "How do you say 'good morning' in %@?",
+      "answers": {
+        "Martina": {
+          "language": "Croatian",
+          "correct": "Dobro jutro",
+          "options": ["Dobro jutro", "Dobar dan", "Dobra večer", "Laku noc"]
+        },
+        "Renato": {
+          "language": "Italian",
+          "correct": "Buongiorno",
+          "options": ["Buongiorno", "Buondì", "Buonanotte", "Buon pomeriggio"]
+        }
+      }
+    },
+    {
+      "question": "How do you say 'goodnight' in %@?",
+      "answers": {
+        "Martina": {
+          "language": "Croatian",
+          "correct": "Laku noć",
+          "options": ["Laku noć", "Dobro jutro", "Dobar dan", "Dobra večer"]
+        },
+        "Renato": {
+          "language": "Italian",
+          "correct": "Buonanotte",
+          "options": ["Buonanotte", "Buongiorno", "Buondì", "Buon pomeriggio"]
+        }
+      }
+    },
+    {
+      "question": "How do you say 'my love' in %@?",
+      "answers": {
+        "Martina": {
+          "language": "Croatian",
+          "correct": "Moja ljubav",
+          "options": ["Moja ljubav", "Ljubav", "Volim te", "Moje srce"]
+        },
+        "Renato": {
+          "language": "Italian",
+          "correct": "Amore mio",
+          "options": ["Amore mio", "Amore", "Mio amor", "Mi amore"]
+        }
+      }
+    },
+    {
+      "question": "How do you say 'my everything' in %@?",
+      "answers": {
+        "Martina": {
+          "language": "Croatian",
+          "correct": "Moje sve",
+          "options": ["Moje sve", "Moja ljubav", "Srce", "Volim te"]
+        },
+        "Renato": {
+          "language": "Italian",
+          "correct": "Il mio tutto",
+          "options": ["Il mio tutto", "Mio tutto", "Mio tutto al mondo", "Tutto al mondo"]
+        }
+      }
+    },
+    {
+      "question": "How do you say 'I love you very much' in %@?",
+      "answers": {
+        "Martina": {
+          "language": "Croatian",
+          "correct": "Volim te puno",
+          "options": ["Jako te volim", "Volim te", "Volim te puno", "Moje sve"]
+        },
+        "Renato": {
+          "language": "Italian",
+          "correct": "Ti amo tanto",
+          "options": ["Ti amo tanto", "Te amo tanto", "Ti amo mucho", "Te amo"]
+        }
+      }
+    },
+    {
+      "question": "How do you say 'me too' in %@?",
+      "answers": {
+        "Martina": {
+          "language": "Croatian",
+          "correct": "I ja tebe",
+          "options": ["I ja tebe", "Isto tako", "Moja ljubav", "Volim te"]
+        },
+        "Renato": {
+          "language": "Italian",
+          "correct": "Anch'io",
+          "options": ["Anch'io", "Anche tu", "Ti amo", "Grazie"]
+        }
+      }
+    },
+    {
+      "question": "How do you say 'my heart beats for you' in %@?",
+      "answers": {
+        "Martina": {
+          "language": "Croatian",
+          "correct": "Moje srce kuca za tebe",
+          "options": ["Moje srce kuca za tebe", "Moje srce ljubavi moja", "Moje sve", "Srce moje"]
+        },
+        "Renato": {
+          "language": "Italian",
+          "correct": "Il mio cuore batte per te",
+          "options": ["Il mio cuore batte per te", "Il mio tutto al mondo", "Il mio amore bello", "La mia principessa"]
+        }
+      }
+    },
+    {
+      "question": "How do you say 'my darling' in %@?",
+      "answers": {
+        "Martina": {
+          "language": "Croatian",
+          "correct": "Dragi moj",
+          "options": ["Dragi moj", "Ljubavi", "Moje srce", "Volim te"]
+        },
+        "Renato": {
+          "language": "Italian",
+          "correct": "Tesoro mio",
+          "options": ["Tesoro mio", "Amore mio", "Cuore mio", "Gioia mia"]
+        }
+      }
+    },
+    {
+      "question": "How do you say 'I'm so happy with you' in %@?",
+      "answers": {
+        "Martina": {
+          "language": "Croatian",
+          "correct": "Tako sam sretan s tobom",
+          "options": ["Tako sam sretan s tobom", "Volim te", "Moje srce", "Jako te volim"]
+        },
+        "Renato": {
+          "language": "Italian",
+          "correct": "Sono così felice con te",
+          "options": ["Sono così felice con te", "Ti amo", "Amore mio", "Mi rendi felice"]
+        }
+      }
+    }
+  ]
+}

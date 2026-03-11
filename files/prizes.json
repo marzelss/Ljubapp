@@ -1,0 +1,113 @@
+[
+  {
+    "emoji": "💆🏻‍♂️",
+    "title": "5 mins of head scratchies",
+    "points": 5,
+    "duration": {
+      "days": null,
+      "hours": null,
+      "minutes": 5,
+      "uses": null
+    }
+  },
+  {
+    "emoji": "🥰",
+    "title": "5 mins of back rubs",
+    "points": 5,
+    "duration": {
+      "days": null,
+      "hours": null,
+      "minutes": 5,
+      "uses": null
+    }
+  },
+  {
+    "emoji": "🥳",
+    "title": "15 mins of back and head scratchies",
+    "points": 15,
+    "duration": {
+      "days": null,
+      "hours": null,
+      "minutes": 15,
+      "uses": null
+    }
+  },
+  {
+    "emoji": "🍽️",
+    "title": "Exemption from dishwashing duties",
+    "points": 10,
+    "duration": {
+      "days": 4,
+      "hours": null,
+      "minutes": null,
+      "uses": null
+    }
+  },
+  {
+    "emoji": "🎶",
+    "title": "Playlist control for the day",
+    "points": 5,
+    "duration": {
+      "days": 1,
+      "hours": null,
+      "minutes": null,
+      "uses": null
+    }
+  },
+  {
+    "emoji": "🧼",
+    "title": "Right to shower first today",
+    "points": 5,
+    "duration": {
+      "days": 1,
+      "hours": null,
+      "minutes": null,
+      "uses": null
+    }
+  },
+  {
+    "emoji": "💋",
+    "title": "1 kiss anywhere",
+    "points": 25,
+    "duration": {
+      "days": null,
+      "hours": null,
+      "minutes": null,
+      "uses": 1
+    }
+  },
+  {
+    "emoji": "👸🏻",
+    "title": "Passenger princess for the day",
+    "points": 10,
+    "duration": {
+      "days": 1,
+      "hours": null,
+      "minutes": null,
+      "uses": null
+    }
+  },
+  {
+    "emoji": "🧖‍♀️",
+    "title": "Sauna time together",
+    "points": 20,
+    "duration": {
+      "days": null,
+      "hours": null,
+      "minutes": null,
+      "uses": 1
+    }
+  },
+  {
+    "emoji": "👗",
+    "title": "Ask me what this means!",
+    "points": 50,
+    "duration": {
+      "days": null,
+      "hours": null,
+      "minutes": null,
+      "uses": 1
+    }
+  }
+]
+

@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ljubapp - Navigation</title>
+  <style>
+    body {
+      background-color: #151259;
+      color: white;
+      font-family: "Poppins", sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      margin: 0;
+      min-height: 100vh;
+      box-sizing: border-box;
+      padding: 40px 20px 20px;
+      overflow-x: hidden;
+      text-align: center;
+    }
+
+    .logo {
+      width: 120px;
+      height: auto;
+      margin-bottom: 0.5rem;
+    }
+
+    .description {
+      max-width: 480px;
+      font-size: 1rem;
+      opacity: 0.9;
+      margin-bottom: 2rem;
+      line-height: 1.5;
+    }
+
+    .tile {
+      background-color: white;
+      color: #151259;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      max-width: 500px;
+      padding: 1.2rem 1.4rem;
+      border-radius: 20px;
+      font-size: 1.1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.25s ease;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+      text-decoration: none;
+      margin-bottom: 1rem;
+      box-sizing: border-box;
+    }
+
+    .tile:hover {
+      transform: scale(1.02);
+      box-shadow: 0 6px 14px rgba(0, 0, 0, 0.25);
+    }
+
+    .arrow {
+      font-size: 1.3rem;
+      margin-left: 1rem;
+      transition: transform 0.2s ease;
+    }
+
+    .tile:hover .arrow {
+      transform: translateX(5px);
+    }
+
+    footer {
+      margin-top: auto;
+      font-size: 0.8rem;
+      opacity: 0.7;
+      text-align: center;
+      padding-top: 2rem;
+    }
+
+    /* --- PLAYER SELECTION --- */
+    .player-option {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 10px;
+      background-color: rgba(255, 255, 255, 0.2);
+      padding: 12px;
+      border-radius: 12px;
+      margin: 10px 0;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      text-align: left;
+      max-width: 300px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .player-option input[type="radio"] {
+      accent-color: #151259;
+      transform: scale(1.2);
+    }
+
+    .player-option.selected {
+      background-color: white;
+      color: #151259;
+    }
+
+    button {
+      margin-top: 30px;
+      background-color: white;
+      color: #151259;
+      padding: 12px 25px;
+      border: none;
+      border-radius: 8px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: transform 0.1s ease;
+    }
+
+    button:hover {
+      transform: scale(1.05);
+    }
+
+  </style>
+</head>
+<body>
+  <div id="content"></div>
+
+  <script>
+    const playerName = localStorage.getItem('playerName');
+    const content = document.getElementById('content');
+
+    // If playerName exists → show navigation
+    if (playerName) {
+      showNavigation();
+    } else {
+      askWhoIsPlaying();
+    }
+
+    // --- FUNCTIONS ---
+    function askWhoIsPlaying() {
+      content.innerHTML = `
+        <div style="max-width: 500px; margin: 0 auto; text-align: center;">
+          <h2 style="margin-bottom: 10px;">Who is playing?</h2>
+          <div id="players">
+            <div class="player-option" data-player="Martina">
+              <input type="radio" name="player" id="martinaRadio">
+              <label for="martinaRadio">Martina</label>
+            </div>
+            <div class="player-option" data-player="Renato">
+              <input type="radio" name="player" id="renatoRadio">
+              <label for="renatoRadio">Renato</label>
+            </div>
+          </div>
+          <button id="continueBtn" style="display:none;">Continue ➔</button>
+        </div>
+      `;
+
+      document.querySelectorAll('.player-option').forEach(option => {
+        option.addEventListener('click', () => {
+          document.querySelectorAll('.player-option').forEach(opt => {
+            opt.classList.remove('selected');
+            opt.querySelector('input[type="radio"]').checked = false;
+          });
+
+          option.classList.add('selected');
+          const radio = option.querySelector('input[type="radio"]');
+          radio.checked = true;
+          const selectedPlayer = option.dataset.player;
+          localStorage.setItem('playerName', selectedPlayer);
+
+          const btn = document.getElementById('continueBtn');
+          btn.style.display = 'inline-block';
+          btn.onclick = showNavigation;
+        });
+      });
+    }
+
+    function showNavigation() {
+      const player = localStorage.getItem('playerName') || 'Player';
+      const now = new Date();
+      const oracleGameUnlockDate = new Date('2025-11-26T17:00:00'); // 26 Nov 2025, 5pm
+      const sneakyGameUnlockDate = new Date('2025-11-27T10:00:00'); // 27 Nov 2025, 10am
+      const exchangeGameUnlockDate = new Date('2025-11-27T17:00:00'); // 27 Nov 2025, 5pm
+      const triviaGameUnlockDate = new Date('2025-11-27T20:00:00'); // 27 Nov 2025, 8pm
+      const presentGameUnlockDate = new Date('2025-11-28T13:00:00'); // 28 Nov 2025, 1pm
+    
+      content.innerHTML = `
+        <img src="assets/ljubapp-logo-small.png" alt="Ljubapp Logo" class="logo" />
+        <p class="description">
+          Welcome back, <strong>${player}</strong>!<br>
+          Use this page to navigate through the experiences.
+        </p>
+    
+        <a href="profile/profile.html" class="tile">
+          <span>Profile</span>
+          <span class="arrow">➔</span>
+        </a>
+    
+        <a href="prizes/prizes.html" class="tile">
+          <span>Claim a prize</span>
+          <span class="arrow">➔</span>
+        </a>
+    
+        <a href="menu/menu.html" class="tile">
+          <span>Menu of the day</span>
+          <span class="arrow">➔</span>
+        </a>
+    
+        ${now >= oracleGameUnlockDate ? `
+        <a href="oracle/oracle.html" class="tile">
+          <span>Oracle Game</span>
+          <span class="arrow">➔</span>
+        </a>
+        ` : ''}
+    
+        ${now >= sneakyGameUnlockDate ? `
+        <a href="sneaky/sneaky.html" class="tile">
+          <span>Sneaky Peeky</span>
+          <span class="arrow">➔</span>
+        </a>
+        ` : ''}
+    
+        ${now >= exchangeGameUnlockDate ? `
+        <a href="exchange/exchange.html" class="tile">
+          <span>Cultural Exchange</span>
+          <span class="arrow">➔</span>
+        </a>
+        ` : ''}
+    
+        ${now >= triviaGameUnlockDate ? `
+        <a href="trivia/trivia.html" class="tile">
+          <span>Trivia Quiz</span>
+          <span class="arrow">➔</span>
+        </a>
+        ` : ''}
+    
+        ${now >= presentGameUnlockDate ? `
+        <a href="present/present.html" class="tile">
+          <span>Guess the present</span>
+          <span class="arrow">➔</span>
+        </a>
+        ` : ''}
+    
+        <footer>Ljubapp © 2025</footer>
+      `;
+    }
+  </script>
+</body>
+</html>

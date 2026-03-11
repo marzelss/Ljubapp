@@ -1,0 +1,72 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #151259;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 25px;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.3rem;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+p {
+  opacity: 0.9;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+/* BUTTONS */
+button {
+  margin-top: 25px;
+  background-color: white;
+  color: #151259;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.1s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+/* SECONDARY BUTTON (clear bg) */
+.secondary-btn {
+  margin-top: 15px;
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  padding: 10px 22px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.1s ease;
+}
+
+.secondary-btn:hover {
+  transform: scale(1.05);
+}
+
+/* CONTENT WRAPPER */
+#present-container {
+  max-width: 600px;
+  margin: auto;
+}
+
+/* Footer text spacing */
+.footer-text {
+  margin-top: 60px;
+  opacity: 0.8;
+}

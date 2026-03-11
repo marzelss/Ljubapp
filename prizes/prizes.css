@@ -1,0 +1,153 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #151259;
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow-x: hidden;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-overflow-scrolling: touch;
+}
+
+.result-container {
+  max-width: 600px;
+  padding: 0.5rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+}
+
+/* 🎯 Total points display */
+#pointsDisplay {
+  font-size: 1.8rem; /* Slightly smaller */
+  margin-top: 1.2rem;
+  color: white;
+}
+
+#claimSection {
+  margin-top: 2rem;
+}
+
+#claimSection h3 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+/* Grid layout: exactly 2 per row */
+#prizeGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.2rem;
+  justify-content: center; 
+  padding: 0 0.5rem;        
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 500px;        
+}
+
+.prize-card {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  padding: 1.2rem;
+  color: white;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.prize-card.selected {
+  background-color: white;
+  color: #243B55;
+}
+
+.prize-emoji {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.prize-title {
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+}
+
+.prize-points {
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+/* Buttons */
+button {
+  background-color: white;
+  color: #151259;
+  border: 2px solid #333;
+  padding: 12px 24px;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 18px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #f0f0f0;
+}
+
+.hidden {
+  display: none;
+}
+
+#confirmPrizeBtn {
+  background-color: white;
+  color: #151259;
+  font-weight: 600;
+  border-radius: 10px;
+  transition: background 0.3s, transform 0.2s;
+}
+
+#confirmPrizeBtn:hover {
+  background-color: #e8e8e8;
+  transform: scale(1.03);
+}
+
+/* Add spacing above the confirm button */
+#confirmPrizeBtn {
+  margin-top: 2rem; /* new space above the button */
+}
+
+/* Optional: if you want to make sure disabled cards never change color */
+.prize-card.disabled:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  transform: none;
+}
+
+.success-box {
+  text-align: center;
+  font-size: 1.6rem;
+  padding: 30px;
+  color: white;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 20px;
+  margin: 20px;
+  backdrop-filter: blur(6px);
+  box-shadow: 0 0 20px rgba(255,255,255,0.15);
+}
+.hidden {
+  display: none !important;
+}

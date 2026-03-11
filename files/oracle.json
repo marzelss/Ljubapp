@@ -1,0 +1,468 @@
+{
+  "questions": [
+    {
+      "timestamp": "2025-11-26T18:00:00+01:00",
+      "question": "What do you think we will have for dinner?",
+      "answers": {
+        "correct": "🍝 Amaticiana",
+        "close": "🥓 Carbonara",
+        "options": ["🍝 Amaticiana", "🥓 Carbonara", "🍫 Palacinke", "🍅 Bruschetta"]
+      },
+      "hints": [
+        "You crave it every time we see each other.",
+        "There's gonna be a bit of a Roman soul.",
+        "Gotta be careful because it will stain on white.",
+        "Luckily you learned how to twirl spaghetti with a fork.",
+        "A good bite will have both cheese and guanciale.",
+        "Hope it will be as delicious as you always say.",
+        "Can you smell the delicious aroma through time?",
+        "It’s not as cheesy as you would think.",
+        "A classic dish that never disappoints.",
+        "I brought some ingredients from home..."
+      ],
+      "misleadingHints": [
+        "It’s definitely something sweet.",
+        "Think of something with chocolate.",
+        "You’ll need a knife, not a fork.",
+        "It might come rolled up.",
+        "There’s some fruit involved.",
+        "It comes from a country you know very well.",
+        "It’s something you’d eat for breakfast, too.",
+        "Don't expect something super light.",
+        "It will be soft like a cookie.",
+        "I hope you’re ready for dessert for dinner!"
+      ],
+      "answerData": {
+        "answered": false,
+        "result": null,
+        "selectedAnswer": null
+      }
+    },
+    {
+      "timestamp": "2025-11-27T10:00:00+01:00",
+      "question": "What do you think the next game will be?",
+      "answers": {
+        "correct": "📷 Something related to cameras",
+        "close": "👩🏻‍❤️‍💋‍👨🏻 Something related to love",
+        "options": ["📷 Something related to cameras", "👩🏻‍❤️‍💋‍👨🏻 Something related to love", "🍽️ Something related to food", "❄️ Something related to snow"]
+      },
+      "hints": [
+        "It's about seeing things from a different perspective.",
+        "Focus might be important for this game.",
+        "Think outside the frame.",
+        "Sometimes you capture moments, sometimes moments capture you.",
+        "Zooming in could help.",
+        "A good angle changes everything.",
+        "Something will click.",
+        "Pay attention to details.",
+        "You’ve held the answer in your hands many times.",
+        "Light is your best friend."
+      ],
+      "misleadingHints": [
+        "You'll need gloves.",
+        "It might be freezing cold.",
+        "Hope you're hungry!",
+        "Expect something spicy.",
+        "You’ll need a blanket.",
+        "We’ll probably be indoors the whole time.",
+        "There's a pot involved.",
+        "It’s something you should eat warm.",
+        "It’s very seasonal.",
+        "It’s related to winter traditions."
+      ],
+      "answerData": {
+        "answered": false,
+        "result": null,
+        "selectedAnswer": null
+      }
+    },
+    {
+      "timestamp": "2025-11-27T14:00:00+01:00",
+      "question": "What do you think tonight's activity will be?",
+      "answers": {
+        "correct": "🎞️ Watching a movie",
+        "close": "🛋️ Cuddling on the couch",
+        "options": ["🎞️ Watching a movie", "🛋️ Cuddling on the couch", "🏡 Playing boardgames", "🫦 Naughty games"]
+      },
+      "hints": [
+        "It’s a classic cozy-night choice.",
+        "We might need a blanket.",
+        "Your eyes will be busy.",
+        "We can sit close for this.",
+        "It doesn’t require much effort.",
+        "You can choose the vibe.",
+        "We haven't done it many times before.",
+        "It’s perfect when you’re tired.",
+        "It works great with snacks.",
+        "You already know my favourite genres."
+      ],
+      "misleadingHints": [
+        "You’ll need a dice.",
+        "Prepare for lots of thinking.",
+        "You’ll definitely win or lose.",
+        "There’s a lot of moving around.",
+        "You might sweat a little.",
+        "It’s something competitive.",
+        "Expect something loud.",
+        "You’ll need some space.",
+        "It’s physically engaging.",
+        "You might need to read instructions."
+      ],
+      "answerData": {
+        "answered": false,
+        "result": null,
+        "selectedAnswer": null
+      }
+    },
+    {
+      "timestamp": "2025-11-27T17:00:00+01:00",
+      "question": "Which movie do you think we'll watch?",
+      "answers": {
+        "correct": "🐻 Brother bear",
+        "close": "🦊 Robin hood",
+        "options": ["🐻 Brother bear", "🦊 Robin hood", "✂️ Edward scissorhands", "🍫 Wonka"]
+      },
+      "hints": [
+        "It has beautiful nature scenes.",
+        "There’s a strong theme of family.",
+        "Get ready for emotions.",
+        "The soundtrack is amazing.",
+        "There’s an animal companion.",
+        "Warm colours appear often.",
+        "It’s older than you think.",
+        "There's a transformative journey.",
+        "You may get a little nostalgic.",
+        "It was one of my childhood favourites."
+      ],
+      "misleadingHints": [
+        "It’s very dark and gothic.",
+        "It features lots of top hats.",
+        "There’s chocolate everywhere.",
+        "It’s a Christmas special.",
+        "There’s a metallic main character.",
+        "It features scissors prominently.",
+        "Expect magic tricks.",
+        "The main character is a kid inventor.",
+        "It’s full of sparkling colours.",
+        "Expect a lot of sugar and candy."
+      ],
+      "answerData": {
+        "answered": false,
+        "result": null,
+        "selectedAnswer": null
+      }
+    },
+
+    {
+      "timestamp": "2025-11-27T20:00:00+01:00",
+      "question": "What do you think I'm wearing under the vest?",
+      "answers": {
+        "correct": "😏 Something naughty",
+        "close": "🫦 Lingerie",
+        "options": ["😏 Something naughty", "🫦 Lingerie", "👀 Nothing", "👙 Only undies"]
+      },
+      "hints": [
+        "It’s a secret… for now.",
+        "It’s not something you'd wear outside.",
+        "It might surprise you 😏",
+        "You’ll see it eventually.",
+        "It’s fun to guess, isn’t it?",
+        "It adds to the anticipation.",
+        "Comfort isn’t the point this time.",
+        "Think a little spicy.",
+        "It’s something chosen intentionally for you.",
+        "It definitely fits the moment."
+      ],
+      "misleadingHints": [
+        "I’m freezing, so I wore layers.",
+        "It’s fluffy and soft.",
+        "You won’t notice anything at all.",
+        "It’s something very basic.",
+        "It’s completely practical.",
+        "It’s something sporty.",
+        "It’s heavy and uncomfortable.",
+        "I needed extra warmth.",
+        "It’s childish themed.",
+        "It’s something very visible."
+      ],
+      "answerData": {
+        "answered": false,
+        "result": null,
+        "selectedAnswer": null
+      }
+    },
+
+    {
+      "timestamp": "2025-11-28T10:00:00+01:00",
+      "question": "What do you think your birthday cake will be?",
+      "answers": {
+        "correct": "🍰 Tiramisu cake",
+        "close": "🎂 Creamy cake",
+        "options": ["🍰 Tiramisu cake", "🎂 Creamy cake", "🥧 Fruit jam tart", "🍫 Chocolate cake"]
+      },
+      "hints": [
+        "It’s a classic.",
+        "It has layers.",
+        "Coffee might be involved… or not.",
+        "It’s creamy and delicious.",
+        "It’s not too heavy.",
+        "It’s a favourite for many.",
+        "It’s Italian in spirit.",
+        "You’ve had it many times.",
+        "It’s not too sweet.",
+        "It pairs well with celebrations."
+      ],
+      "misleadingHints": [
+        "It’s filled with jam.",
+        "It’s fruity.",
+        "Expect something super chocolatey.",
+        "It’s baked until crunchy.",
+        "It’s more like a pie.",
+        "It’s mostly pastry.",
+        "It’s extremely sugary.",
+        "It has a bright red topping.",
+        "It’s inspired by summer desserts.",
+        "It’s something very colourful."
+      ],
+      "answerData": {
+        "answered": false,
+        "result": null,
+        "selectedAnswer": null
+      }
+    },
+
+    {
+      "timestamp": "2025-11-28T13:00:00+01:00",
+      "question": "What do you think your birthday present will be?",
+      "answers": {
+        "correct": "🗣️ Something related to Italian",
+        "close": "🍎 Something related to a fruit",
+        "options": ["🗣️ Something related to Italian", "🍎 Something related to a fruit", "🥶 Something related to cold", "👩🏻‍❤️‍💋‍👨🏻 Something related to love"]
+      },
+      "hints": [
+        "It’s connected to who you are.",
+        "It has cultural meaning.",
+        "It might make you smile.",
+        "You’ll recognize it instantly.",
+        "It can be used later too.",
+        "It’s personal.",
+        "It’s something you’ve mentioned.",
+        "It’s not too big.",
+        "It’s thoughtful.",
+        "It’s tied to your roots."
+      ],
+      "misleadingHints": [
+        "It needs to be kept in a fridge.",
+        "It melts easily.",
+        "It’s something romantic.",
+        "It’s shaped like a heart.",
+        "It’s winter themed.",
+        "You’ll need gloves for it.",
+        "It’s delicious to eat.",
+        "It has a strong smell.",
+        "It’s a pair of socks.",
+        "It jingles when shaken."
+      ],
+      "answerData": {
+        "answered": false,
+        "result": null,
+        "selectedAnswer": null
+      }
+    },
+
+    {
+      "timestamp": "2025-11-28T17:00:00+01:00",
+      "question": "What colour do you think my dress will be?",
+      "answers": {
+        "correct": "🍃 A shade of green",
+        "close": "🦋 A shade of blue",
+        "options": ["🍃 A shade of green", "🦋 A shade of blue", "💋 A shade of red", "✨ Something glittery"]
+      },
+      "hints": [
+        "It’s earthy and elegant.",
+        "It suits the season beautifully.",
+        "It’s calming to look at.",
+        "You’ve seen me in this colour before.",
+        "It’s soft, not bright.",
+        "It reminds you of nature.",
+        "It’s one of my favourites.",
+        "It’s not flashy.",
+        "Think forest vibes.",
+        "It looks good in candlelight."
+      ],
+      "misleadingHints": [
+        "It sparkles a lot.",
+        "It’s bold and fiery.",
+        "You’ll notice it miles away.",
+        "It’s perfect for a nightclub.",
+        "It has sequins everywhere.",
+        "It’s practically glowing.",
+        "It’s very, very red.",
+        "It’s metallic.",
+        "It’s neon-colored.",
+        "It’s a Christmas-themed pattern."
+      ],
+      "answerData": {
+        "answered": false,
+        "result": null,
+        "selectedAnswer": null
+      }
+    },
+
+    {
+      "timestamp": "2025-11-29T09:00:00+01:00",
+      "question": "What will today's lunch be?",
+      "answers": {
+        "correct": "😋 Lasagne",
+        "close": "🌿 Pesto",
+        "options": ["😋 Lasagne", "🌿 Pesto", "🥘 Warm soup", "🥪 Sandwiches"]
+      },
+      "hints": [
+        "It’s layered.",
+        "It’s baked.",
+        "It’s hearty.",
+        "It’s a weekend favourite.",
+        "It feels homemade.",
+        "It’s comforting.",
+        "Every bite tastes different.",
+        "It’s a bit heavy.",
+        "It’s one of your favourites.",
+        "It’s perfect for sharing."
+      ],
+      "misleadingHints": [
+        "It’s super light.",
+        "It’s mostly liquid.",
+        "It’s green and simple.",
+        "It’s something you’d eat on a picnic.",
+        "It comes in a cup.",
+        "You drink part of it.",
+        "It’s cold.",
+        "It’s crunchy.",
+        "It’s something quick.",
+        "It’s something you'd eat during a diet."
+      ],
+      "answerData": {
+        "answered": false,
+        "result": null,
+        "selectedAnswer": null
+      }
+    },
+
+    {
+      "timestamp": "2025-11-29T12:00:00+01:00",
+      "question": "What do you think your Christmas gift will be?",
+      "answers": {
+        "correct": "👩🏻‍❤️‍💋‍👨🏻 Something related to love",
+        "close": "✨ Something related to lights",
+        "options": ["👩🏻‍❤️‍💋‍👨🏻 Something related to love", "✨ Something related to lights", "🍫 Something related to chocolate", "🎆 Something related to 2026"]
+      },
+      "hints": [
+        "It’s heartfelt.",
+        "It’s meaningful.",
+        "It might make you emotional.",
+        "It’s symbolic.",
+        "It’s something you treasure.",
+        "It’s warm, not cold.",
+        "It holds a message.",
+        "It’s inspired by us.",
+        "It has a bit of magic.",
+        "It’s something you won’t forget."
+      ],
+      "misleadingHints": [
+        "It’s super sugary.",
+        "It’s edible.",
+        "It tastes like cocoa.",
+        "It’s something you burn.",
+        "It’s fireworks-related.",
+        "It’s about New Year celebrations.",
+        "It’s loud.",
+        "It melts easily.",
+        "It’s shiny wrapping that matters.",
+        "It’s a seasonal snack."
+      ],
+      "answerData": {
+        "answered": false,
+        "result": null,
+        "selectedAnswer": null
+      }
+    },
+
+    {
+      "timestamp": "2025-11-29T15:00:00+01:00",
+      "question": "What do you think your Christmas gift will be?",
+      "answers": {
+        "correct": "🍬 Sweets and candies",
+        "close": "💌 Love notes",
+        "options": ["🍬 Sweets and candies", "💌 Love notes", "⚙️ Small gadgets", "🧤 Winter gear"]
+      },
+      "hints": [
+        "It’s colourful.",
+        "It’s fun.",
+        "It’s small.",
+        "It comes in multiple pieces.",
+        "You can share it… or not.",
+        "It’s a childhood throwback.",
+        "It smells sweet.",
+        "It can come in a box.",
+        "It’s not too expensive.",
+        "Its sound is crinkly."
+      ],
+      "misleadingHints": [
+        "It needs batteries.",
+        "It’s mechanical.",
+        "It’s something you fix things with.",
+        "It keeps you warm.",
+        "It’s practical, not fun.",
+        "You wear it outside.",
+        "It’s made of wool.",
+        "It’s metal or plastic.",
+        "It’s durable and long-lasting.",
+        "You need instructions to use it."
+      ],
+      "answerData": {
+        "answered": false,
+        "result": null,
+        "selectedAnswer": null
+      }
+    },
+
+    {
+      "timestamp": "2025-11-29T18:00:00+01:00",
+      "question": "What will today's dinner be?",
+      "answers": {
+        "correct": "🐷 Something related to a piglet",
+        "close": "🎄 Something related to Christmas",
+        "options": ["🐷 Something related to a piglet", "🎄 Something related to Christmas", "👩🏻‍❤️‍💋‍👨🏻 Something related to our anniversary", "✨ Something glittery"]
+      },
+      "hints": [
+        "It’s savoury.",
+        "It’s a winter favourite.",
+        "It’s hearty.",
+        "It might be roasted.",
+        "It’s a bit festive.",
+        "It’s comforting.",
+        "It pairs well with potatoes.",
+        "It smells amazing.",
+        "It’s tied to traditions.",
+        "It fits perfectly with the season."
+      ],
+      "misleadingHints": [
+        "It sparkles.",
+        "It’s sweet and sugary.",
+        "It’s something you drink.",
+        "It’s very romantic.",
+        "It’s something from Valentine’s Day.",
+        "It’s a dessert.",
+        "It’s something cold.",
+        "It’s something light.",
+        "It’s mainly vegetables.",
+        "It’s part of a summer meal."
+      ],
+      "answerData": {
+        "answered": false,
+        "result": null,
+        "selectedAnswer": null
+      }
+    }
+  ]
+}

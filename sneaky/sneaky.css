@@ -1,0 +1,59 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #151259;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+button {
+  margin-top: 30px;
+  background-color: white;
+  color: #151259;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.1s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+input[type="file"] {
+  opacity: 0;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+}
+
+.upload-label {
+  display: inline-block;
+  background-color: white;
+  color: #151259;
+  padding: 12px 25px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.empty-state {
+  opacity: 0.6;
+  margin-top: 20px;
+  font-size: 1rem;
+}
+
+#results {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}

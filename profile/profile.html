@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Profile</title>
+  <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+  <div class="profile-container">
+    <img id="profileImage" src="" alt="Profile Image" />
+    <h1 id="profileName"></h1>
+    <p id="totalPoints"></p>
+
+    <div class="history-section">
+      <h2>Your prizes:</h2>
+      <div id="prizeHistory"></div>
+    </div>
+  </div>
+
+  <!-- LOAD FIREBASE LIBRARIES FIRST -->
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+
+  <!-- THEN your code -->
+  <script src="profile.js"></script>
+</body>
+</html>
